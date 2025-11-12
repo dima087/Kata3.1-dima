@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+body {
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    max-width: 1120px;
+    min-width: 320px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
